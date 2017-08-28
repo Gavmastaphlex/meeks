@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body {
+	margin: 0;
+	font-family: 'Merienda', cursive;
+	font-size: 1.125em;
+}
+
+nav {
+	/*font-family: 'Sancreek', cursive;*/
+	font-size: 2em;
+}
+
+nav li {
+	padding: 0.625em 0;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+nav li:hover {
+	text-shadow: 0 0 1.875em #0FBAFE;
+}
+
+header h1 {
+	width: 9em;
+	height: 1.6em;
+	margin: .3em auto 0;
+	font-size: 4vw;
+	font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.375em;
+	margin: 0 0 0 0;
+}
+
+h2 {
+	text-align: center;
+	margin: 2.188em 0 1.25em 0;
+}
+
+#container {
+	background-image: url('../images/background2.jpeg');
+	width: 100%;
+	background-size: 100%;
+	background-repeat: repeat-y;
+	position: absolute;
+	top:0;
+}
+
+#container.home {
+	height:100%;
+}
+
+#bandPic  {
+	margin: 0 auto;
+	display: block;
+	max-width: 90%;
+	border: double;
+	border-radius: 1.25em;
+	border-width: 0.375em;
+	box-shadow: 0 0 1.563em;
+}
+
+.memberPic  {
+	margin: 0.625em auto;
+	display: block;
+	max-width: 90%;
+	border: double;
+	border-radius: 1.25em;
+	border-width: 0.375em;
+	box-shadow: 0 0 1.563em;
+}
+
+#aboutUs {
+	margin: 0 auto;
+	width: 31.25em;
+}
+
+article li {
+	text-align: center;
+	list-style: none;
+	margin: 1em 0;
+	font-size: 1.375em;
+}
+
+header {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+    padding: 0.2em;
+    margin: 0.3em 0.5em 0.3em;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+
+footer {
+	font-family: Times;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+
+footer li {
+	padding-bottom: 0.5em;
+}
+
+article {
+	width: 100%;
+	margin: 0 auto 1em;
+}
+
+nav li {
+	display: inline;
+}
+
+#map-canvas {
+	width: 37.5em;
+	height: 25em;
+	margin: 1.875em auto;
+	border: 0.313em double #000;
+}
+
+#direction-canvas {
+	width: 37.5em;
+	height: 25em;
+	margin: 1.875em auto;
+	border: 0.313em double #000;
+	background-color: white;
+	overflow-y: scroll;
+}
+
+form {
+	width: 18.75em;
+	margin: 0 auto 1.25em;
+}
+
+
+input, textarea {
+	float: right;
+	width: 11.563em;
+}
+
+.error {
+	font-family: times, serif;
+	font-size: 1em;
+	color: red;
+	display: block;
+	text-align: center;
+	clear: both;
+
+}
+
+#submit {
+	width: 6.25em;
+	margin: 1.25em auto;
+}
+
+#submitBtn {
+	width: 6.25em;
+	margin: 1.25em auto;
+}
+
+#clearDiv {
+	clear: both;
+}
+
+@media screen and (min-width: 481px) and (max-width: 959px) {
+  article li {
+	text-align: center;
+	list-style: none;
+	margin: 1em 0;
+	font-size: 1.125em;
+}
+
+nav {
+	font-family: 'Sancreek', cursive;
+	font-size: 1.5em;
+}
+
+nav a {
+	padding: 0.2em;
+	margin: 0.8em 0.5em 0;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+nav li {
+	display: inline;
+}
+
+article, #aboutUs {
+	max-width: 90%;
+}
+
+.tablet-clear-div {
+	clear: both;
+}
+
+#map-canvas {
+	margin: 1.875em auto;
+	max-width: 90%;
+}
+
+#direction-canvas {
+	margin: 1.875em auto;
+	max-width: 90%;
+}
+
+footer {
+	font-family: Times;
+	font-size: .9em;
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 480px) {
+  body {
+	margin: 0;
+	background-image: url('../images/backgroundTexture.jpg');
+	font-family: 'Merienda', cursive;
+	font-size: 0.875em;
+}
+
+header h1 {
+	width: 12em;
+	height: 2.25em;
+	background-image: url('../images/title-mobile.png');
+	text-indent: -9999em;
+	overflow: hidden;
+	margin: 1.25em auto 0;
+}
+
+h1 {
+	font-size: 1.75em;
+}
+
+nav {
+	font-family: 'Sancreek', cursive;
+	font-size: 1.875em;
+}
+
+nav li {
+	display: block;
+	padding: 0 0 0 0;
+}
+
+nav a {
+	margin: 0 0 0 0;
+}
+
+#container {
+	padding: 2%;
+}
+
+#bandPic {
+	margin: 3% 10%;
+	display: block;
+	max-width: 80%;
+	border: double;
+	border-radius: 1.25em;
+	border-width: 0.375em;
+	box-shadow: 0 0 2.625em;
+}
+
+article, #aboutUs {
+	margin: 0 5%;
+	max-width: 90%;
+}
+
+article li {
+	text-align: center;
+	list-style: none;
+	margin: 0.938em 0;
+	font-size: 0.938em;
+}
+
+#map-canvas {
+	margin: 1.875em auto;
+	max-width: 90%;
+}
+
+#direction-canvas {
+	margin: 1.875em auto;
+	max-width: 90%;
+}
+
+footer {
+	font-family: Times;
+	font-size: 0.875em;
+	text-align: center;
+}
+}
